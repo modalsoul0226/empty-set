@@ -8,14 +8,14 @@ const props = defineProps<{
 
 <template>
     <div class="grid grid-cols-8">
-        <sidenote v-if="footnote && !right">
+        <Sidenote v-if="footnote && !right">
           {{footnote}}
-        </sidenote>
+        </Sidenote>
         <p class="col-span-7">
           <slot></slot>
         </p>
-        <sidenote v-if="footnote && right" class="text-right">
+        <Sidenote v-if="footnote && right" class="text-right">
           {{footnote}}
-        </sidenote>
+        </Sidenote>
     </div>
 </template>
