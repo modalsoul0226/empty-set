@@ -11,9 +11,9 @@ const props = defineProps<{
         <Sidenote v-if="footnote && !right">
           {{footnote}}
         </Sidenote>
-        <p class="col-span-7">
+        <div class="col-span-7">
           <slot></slot>
-        </p>
+        </div>
         <Sidenote v-if="footnote && right" class="text-right">
           {{footnote}}
         </Sidenote>

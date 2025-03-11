@@ -1,3 +1,3 @@
 <template>
-  <hr class="w-full h-[2px] bg-black" />
+  <hr class="w-full h-1 bg-black" />
 </template>

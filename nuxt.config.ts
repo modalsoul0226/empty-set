@@ -17,8 +17,8 @@ export default defineNuxtConfig({
   },
   modules: ["@unocss/nuxt", "@nuxt/fonts"],
   css: [
-    join(currentDir, "./assets/css/main.css"),
+    "@unocss/reset/normalize.css",
     join(currentDir, "./assets/css/reset.css"),
-    "@unocss/reset/normalize.css"
+    join(currentDir, "./assets/css/main.css"),
   ],
 });
