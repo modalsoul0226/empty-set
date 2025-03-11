@@ -1,12 +1,12 @@
 <template>
-    <stack class="basis-64 gap-2">
-      <heading level="1">{ }</heading>
-      <heading level="2">Design System</heading>
-    </stack>
-    <stack class="basis-128 gap-2">
-      <shapes />
-    </stack>
+    <Stack class="basis-64 gap-2">
+      <Heading level="1">{ }</Heading>
+      <Heading level="2">Design System</Heading>
+    </Stack>
+    <Stack class="basis-128 gap-2">
+      <Shapes />
+    </Stack>
     <div class="basis-186 h-full flex flex-none items-center">
-      <section-title />
+      <Section-title />
     </div>
 </template>
