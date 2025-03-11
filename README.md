@@ -2,4 +2,4 @@
 
 An empty set is unique by the Principle of Extensionality.
 
-![Empty Set](./assets/img/png.png)
+<img alt="Empty Set" src="./assets/img/png.png" width=500 />
