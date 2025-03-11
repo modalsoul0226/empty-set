@@ -1,0 +1,38 @@
+body {
+    font-family: Inter, "Helvetica Neue", "Source Han Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+[lang="ar"] {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: -2px;
+    color: rgba(147, 148, 151, 0.85);
+}
+
+aside {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.extra {
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: -5px;
+    line-height: 0.9;
+}
