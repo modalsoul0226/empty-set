@@ -2,6 +2,7 @@
 const props = defineProps<{
   text: string;
   img: string;
+  lang?: string;
 }>();
 </script>
 
@@ -9,7 +10,7 @@ const props = defineProps<{
   <Overlay>
     <template #overlay>
       <div class="w-full h-full flex items-center justify-center">
-        <Heading level="extra" class="text-white">{{ text }}</Heading>
+        <Heading level="extra" class="text-white"><span :lang="lang || 'en'">{{ text }}</span></Heading>
       </div>
     </template>
     <template #content>
